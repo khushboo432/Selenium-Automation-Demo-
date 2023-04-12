@@ -42,6 +42,7 @@ public class ApplicationHooks {
     byte[] file = FileUtils.readFileToByteArray(screenshot);
     scenario.attach(file, "image/png", "");
     }
+    
     @After
     public void teardown() throws InterruptedException{
         Thread.sleep(5000);
