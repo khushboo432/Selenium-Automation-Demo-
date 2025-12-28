@@ -43,6 +43,7 @@ public class SeleniumPractice2 {
 			System.out.println("clicking on index" + index);
 		}
 		System.out.println("Total number of links in this page footer column:" + linkCountFooterColumn);
+		System.out.println("Making changes");
 		Thread.sleep(2000);
 		driver.close();
 	
